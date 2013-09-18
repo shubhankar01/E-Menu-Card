@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:padding="30dp" >
+
+    <Button
+        android:id="@+id/sjt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:background="#FFFFFF"
+        android:drawableTop="@drawable/sjt"
+        android:text="SJT Canteen" >
+    </Button>
+
+    <Button
+        android:id="@+id/foodcourt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:background="#FFFFFF"
+        android:drawableTop="@drawable/foodcourt"
+        android:text="Food Court" >
+    </Button>
+
+    <Button
+        android:id="@+id/foodpark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="50dp"
+        android:background="#FFFFFF"
+        android:drawableTop="@drawable/foodpark"
+        android:text="Food Park" />
+
+    <Button
+        android:id="@+id/darlingres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="50dp"
+        android:background="#FFFFFF"
+        android:drawableTop="@drawable/darlres"
+        android:text="Food Mall" >
+    </Button>
+
+</RelativeLayout>
